@@ -1,4 +1,4 @@
-rsource "aws_vpc" "tfb" {
+resource "aws_vpc" "tfb" {
 	cidr_block		= "${var.cidr}"
 	enable_dns_hostnames	= "${var.enable_dns_hostnames}"
 	enable_dns_support	= "${var.enable_dns_support}"
